@@ -1,0 +1,363 @@
+[
+  {
+    "image": "https://source.unsplash.com/600x400/?weather,app",
+    "title": "WeatherNow",
+    "companyName": "SkyTech",
+    "id": 1,
+    "description": "Real-time weather forecast and alerts.",
+    "size": 35,
+    "reviews": 1240,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 580 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?fitness,workout",
+    "title": "FitTrack",
+    "companyName": "Healthify",
+    "id": 2,
+    "description": "Track workouts and daily fitness goals.",
+    "size": 48,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": 42000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 340 },
+      { "name": "5 star", "count": 390 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?music,headphones",
+    "title": "SoundWave",
+    "companyName": "BeatLabs",
+    "id": 3,
+    "description": "Stream and discover new music tracks.",
+    "size": 55,
+    "reviews": 2100,
+    "ratingAvg": 4.6,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 760 },
+      { "name": "5 star", "count": 950 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?food,recipe",
+    "title": "CookMaster",
+    "companyName": "KitchenSoft",
+    "id": 4,
+    "description": "Discover and cook delicious recipes.",
+    "size": 60,
+    "reviews": 1500,
+    "ratingAvg": 4.4,
+    "downloads": 75000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 620 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?travel,explore",
+    "title": "TravelMate",
+    "companyName": "GlobeTech",
+    "id": 5,
+    "description": "Plan trips and explore new destinations.",
+    "size": 70,
+    "reviews": 1320,
+    "ratingAvg": 4.5,
+    "downloads": 68000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 520 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?notes,study",
+    "title": "NoteStack",
+    "companyName": "EduSoft",
+    "id": 6,
+    "description": "Organize notes and study efficiently.",
+    "size": 32,
+    "reviews": 870,
+    "ratingAvg": 4.2,
+    "downloads": 30000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 295 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?finance,money",
+    "title": "MoneyWise",
+    "companyName": "FinCore",
+    "id": 7,
+    "description": "Manage personal finances and budgeting.",
+    "size": 50,
+    "reviews": 940,
+    "ratingAvg": 4.4,
+    "downloads": 41000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 340 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?meditation,yoga",
+    "title": "CalmMind",
+    "companyName": "ZenTech",
+    "id": 8,
+    "description": "Meditation and relaxation guidance.",
+    "size": 45,
+    "reviews": 1110,
+    "ratingAvg": 4.6,
+    "downloads": 54000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 380 },
+      { "name": "5 star", "count": 550 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?camera,photography",
+    "title": "PhotoSnap",
+    "companyName": "PixelWorks",
+    "id": 9,
+    "description": "Capture and edit stunning photos.",
+    "size": 65,
+    "reviews": 1740,
+    "ratingAvg": 4.5,
+    "downloads": 82000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 620 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?language,learning",
+    "title": "LinguaLearn",
+    "companyName": "GlobalEdu",
+    "id": 10,
+    "description": "Learn new languages easily.",
+    "size": 58,
+    "reviews": 1600,
+    "ratingAvg": 4.7,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 770 }
+    ]
+  },
+
+  {
+    "image": "https://source.unsplash.com/600x400/?shopping,ecommerce",
+    "title": "ShopEasy",
+    "companyName": "MarketHub",
+    "id": 11,
+    "description": "Online shopping made simple.",
+    "size": 75,
+    "reviews": 2000,
+    "ratingAvg": 4.4,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 720 },
+      { "name": "5 star", "count": 760 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?calendar,planning",
+    "title": "DayPlanner",
+    "companyName": "TaskFlow",
+    "id": 12,
+    "description": "Organize tasks and daily schedules.",
+    "size": 36,
+    "reviews": 820,
+    "ratingAvg": 4.3,
+    "downloads": 28000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 290 },
+      { "name": "5 star", "count": 285 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?book,reading",
+    "title": "BookNest",
+    "companyName": "ReaderSoft",
+    "id": 13,
+    "description": "Read and discover digital books.",
+    "size": 42,
+    "reviews": 910,
+    "ratingAvg": 4.5,
+    "downloads": 36000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 170 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?map,navigation",
+    "title": "RouteFinder",
+    "companyName": "NavTech",
+    "id": 14,
+    "description": "Find the fastest routes and navigation.",
+    "size": 52,
+    "reviews": 1340,
+    "ratingAvg": 4.4,
+    "downloads": 61000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 75 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 460 },
+      { "name": "5 star", "count": 545 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?painting,art",
+    "title": "ArtStudio",
+    "companyName": "CreativeLab",
+    "id": 15,
+    "description": "Digital drawing and painting tools.",
+    "size": 68,
+    "reviews": 1490,
+    "ratingAvg": 4.6,
+    "downloads": 72000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 645 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?sleep,relax",
+    "title": "SleepBetter",
+    "companyName": "DreamTech",
+    "id": 16,
+    "description": "Improve sleep habits and relaxation.",
+    "size": 40,
+    "reviews": 760,
+    "ratingAvg": 4.2,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 260 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?coding,programming",
+    "title": "CodeLab",
+    "companyName": "DevSoft",
+    "id": 17,
+    "description": "Learn coding with interactive lessons.",
+    "size": 62,
+    "reviews": 1800,
+    "ratingAvg": 4.7,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 610 },
+      { "name": "5 star", "count": 860 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?chat,messaging",
+    "title": "ChatLoop",
+    "companyName": "Connectify",
+    "id": 18,
+    "description": "Instant messaging and group chats.",
+    "size": 38,
+    "reviews": 1650,
+    "ratingAvg": 4.3,
+    "downloads": 87000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 560 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?video,streaming",
+    "title": "StreamBox",
+    "companyName": "MediaWave",
+    "id": 19,
+    "description": "Watch movies and TV shows online.",
+    "size": 85,
+    "reviews": 2200,
+    "ratingAvg": 4.5,
+    "downloads": 140000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 340 },
+      { "name": "4 star", "count": 780 },
+      { "name": "5 star", "count": 850 }
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/600x400/?news,journalism",
+    "title": "DailyNews",
+    "companyName": "InfoMedia",
+    "id": 20,
+    "description": "Stay updated with global news.",
+    "size": 34,
+    "reviews": 910,
+    "ratingAvg": 4.1,
+    "downloads": 47000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 210 }
+    ]
+  }
+]

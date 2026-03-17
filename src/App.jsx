@@ -6,7 +6,7 @@ import Footer from "./Layout/Footer/Footer";
 function App() {
   return (
     <>
-      <div>
+      <div className="font-serif">
         <Header />
         <div>
           <Outlet />
