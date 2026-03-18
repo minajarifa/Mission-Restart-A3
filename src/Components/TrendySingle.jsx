@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom";
+
 export default function TrendySingle({ trending }) {
   console.log(trending);
-  const { title, downloads, ratings, image, description } = trending;
+  const { title, downloads, ratings, image, description,id } = trending;
   return (
+    <Link to={`/TrendyDetails/${id}`}>
     <div className="shadow-sm card bg-base-100 w-96">
       <figure>
         <img src={image} alt="photos" />
@@ -17,5 +20,6 @@ export default function TrendySingle({ trending }) {
         </div>
       </div>
     </div>
+    </Link>
   );
 }

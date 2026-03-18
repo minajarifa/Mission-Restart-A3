@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="font-serif">
         <Header />
-        <div>
+        <div className="mx-20">
           <Outlet />
         </div>
         <Footer />

@@ -1,5 +1,5 @@
 import { LiaGithub } from "react-icons/lia";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Header() {
   const navLink = (
@@ -51,9 +51,9 @@ export default function Header() {
         <ul className="px-1 menu menu-horizontal">{navLink}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-gradient-to-tr from-[#632EE3] to-[#9F62F2]">
+        <Link to={`https://github.com/minajarifa/Mission-Restart-A3`} className="btn bg-gradient-to-tr from-[#632EE3] to-[#9F62F2]">
             <LiaGithub className="text-xl" />
-            Contribute</a>
+            Contribute</Link>
       </div>
     </div>
   );

@@ -7,6 +7,7 @@ import Home from "./Pages/Home/Home.jsx";
 import Apps from "./Pages/Apps/Apps.jsx";
 import Error from "./Pages/Error/Error.jsx";
 import AppError from "./Pages/AppError/AppError.jsx";
+import TrendyDetails from "./Pages/TrendyDetaills/TrendyDetails.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/Apps",
         Component: Apps,
+      },
+      {
+        path: "/TrendyDetails/:id",
+        Component: TrendyDetails,
       },
     ],
   },
