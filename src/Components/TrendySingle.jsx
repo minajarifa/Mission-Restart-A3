@@ -7,7 +7,7 @@ export default function TrendySingle({ trending }) {
     <Link to={`/TrendyDetails/${id}`}>
     <div className="shadow-sm card bg-base-100 w-96">
       <figure>
-        <img src={image} alt="photos" />
+        <img src={image} alt="photos" className="h-40"/>
       </figure>
       <div className="card-body">
         <h2 className="card-title">
