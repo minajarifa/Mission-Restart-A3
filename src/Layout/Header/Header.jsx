@@ -5,13 +5,13 @@ export default function Header() {
   const navLink = (
     <>
       <li>
-        <NavLink to={'/'}>Home</NavLink>
+        <NavLink to={"/"}>Home</NavLink>
       </li>
       <li>
-        <NavLink to={'/Apps'}>Apps</NavLink>
+        <NavLink to={"/Apps"}>Apps</NavLink>
       </li>
       <li>
-        <NavLink> Installation</NavLink>
+        <NavLink to={"/Installation"}> Installation</NavLink>
       </li>
     </>
   );
@@ -42,18 +42,22 @@ export default function Header() {
             {navLink}
           </ul>
         </div>
-        <a className="text-xl text-purple-700 btn btn-ghost">
+        <Link to={'/'} className="text-xl text-purple-700 btn btn-ghost">
           <img className="h-10" src="/logo.png" alt="Logo" />
           HERO.OI
-        </a>
+        </Link>
       </div>
       <div className="hidden navbar-center lg:flex">
         <ul className="px-1 menu menu-horizontal">{navLink}</ul>
       </div>
       <div className="navbar-end">
-        <Link to={`https://github.com/minajarifa/Mission-Restart-A3`} className="btn bg-gradient-to-tr from-[#632EE3] to-[#9F62F2]">
-            <LiaGithub className="text-xl" />
-            Contribute</Link>
+        <Link
+          to={`https://github.com/minajarifa/Mission-Restart-A3`}
+          className="btn bg-gradient-to-tr from-[#632EE3] to-[#9F62F2]"
+        >
+          <LiaGithub className="text-xl" />
+          Contribute
+        </Link>
       </div>
     </div>
   );

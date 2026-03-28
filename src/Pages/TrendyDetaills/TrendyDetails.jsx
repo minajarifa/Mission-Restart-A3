@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { addWantedIdea } from "../../localStorage";
+import Swal from "sweetalert2";
 
 export default function TrendyDetails() {
   const [apps, setApps] = useState([]);
@@ -16,11 +17,11 @@ export default function TrendyDetails() {
   console.log(appData);
   const handleAddInstallData=(id)=>{
     if(addWantedIdea(id)){
-      console.log("return done")
+    //  Swal.fire("App already installed");
       return 
     }
     addWantedIdea(id)
-    console.log(id)
+   Swal.fire("App installed");
   }
   return (
     <div>

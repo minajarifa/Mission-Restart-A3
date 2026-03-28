@@ -8,20 +8,29 @@ import Apps from "./Pages/Apps/Apps.jsx";
 import Error from "./Pages/Error/Error.jsx";
 import AppError from "./Pages/AppError/AppError.jsx";
 import TrendyDetails from "./Pages/TrendyDetaills/TrendyDetails.jsx";
+import Installation from "./Pages/Installation/Installation.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
-    errorElement:<Error></Error>,
-      children: [
+    errorElement: <Error></Error>,
+    children: [
       {
         path: "/",
         element: <Home />,
-        errorElement:AppError,
+        errorElement: AppError,
       },
       {
         path: "/Apps",
         Component: Apps,
+      },
+      {
+        path: "/Installation",
+        Component: Installation,
+        loader: async () => {
+          const res = await fetch("/apps.json");
+          return res;
+        },
       },
       {
         path: "/TrendyDetails/:id",

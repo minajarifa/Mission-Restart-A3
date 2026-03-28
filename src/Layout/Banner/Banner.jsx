@@ -5,7 +5,7 @@ export default function Banner() {
   return (
     <div>
       {/* header section */}
-      <div className="pt-5  hero bg-base-200">
+      <div className="pt-5 hero bg-base-200">
         <div className="w-full text-center hero-content">
           <div className="w-full ">
             <h1 className="text-5xl font-bold">We Build</h1>
@@ -18,26 +18,34 @@ export default function Banner() {
               turn your ideas into digital experiences that truly make an
               impact.
             </p>
-            <button className="px-5 m-5 btn btn-primary">
+            <a
+              href="https://play.google.com/store/games?hl=en"
+              className="px-5 m-5 btn btn-primary"
+            >
               <BsGooglePlay className="text-xl " />
               Google Play
-            </button>
-            <button className="px-5 m-5 btn btn-primary">
+            </a>
+            <a
+              href="https://www.apple.com/app-store/"
+              className="px-5 m-5 btn btn-primary"
+            >
               <SiAppstore className="text-xl text-blue-500" />
               App Store
-            </button>
+            </a>
           </div>
         </div>
       </div>
       {/* image section */}
       <div>
         <div className="flex justify-center">
-          <img src="/public/hero.png" alt="" />
+          <img src="hero.png" alt="" />
         </div>
       </div>
       {/* trusted section */}
       <div className="bg-gradient-to-tr from-[#632EE3] to-[#9F62F2] text-[#FFFFFF] py-14">
-        <h1 className="text-4xl text-center">Trusted By Millions , build for you</h1>
+        <h1 className="text-4xl text-center">
+          Trusted By Millions , build for you
+        </h1>
         <div className="flex justify-around mt-10">
           <div>
             <h6 className="text-xs">Total Downloads</h6>
