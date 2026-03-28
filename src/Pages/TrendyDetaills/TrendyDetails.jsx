@@ -13,17 +13,9 @@ export default function TrendyDetails() {
   }, []);
   const appData = apps.find((app) => app.id === id);
   console.log(appData);
-  // const {
-  //   companyName,
-  //   description,
-  //   downloads,
-  //   image,
-  //   ratingAvg,
-  //   ratings,
-  //   reviews,
-  //   size,
-  //   title,
-  // } = appData;
+  const handleAddInstallData=()=>{
+    
+  }
   return (
     <div>
       {/* big card */}
