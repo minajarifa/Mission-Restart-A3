@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { addWantedIdea } from "../../localStorage";
 
 export default function TrendyDetails() {
   const [apps, setApps] = useState([]);
@@ -13,8 +14,13 @@ export default function TrendyDetails() {
   }, []);
   const appData = apps.find((app) => app.id === id);
   console.log(appData);
-  const handleAddInstallData=()=>{
-    
+  const handleAddInstallData=(id)=>{
+    if(addWantedIdea(id)){
+      console.log("return done")
+      return 
+    }
+    addWantedIdea(id)
+    console.log(id)
   }
   return (
     <div>
@@ -53,7 +59,7 @@ export default function TrendyDetails() {
               </div>
             </div>
 
-            <button className="text-white btn bg-[#00827A] px-5  m-10">
+            <button onClick={()=>handleAddInstallData(appData?.id)} className="text-white btn bg-[#00827A] px-5  m-10">
               Install Now ({appData?.ratingAvg}) MB
             </button>
           </div>
